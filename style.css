@@ -97,7 +97,7 @@ h2 {
 
 .big-bg h2{
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -108,23 +108,31 @@ h2 {
   text-align: center;
 }
 
-/*.big-bg p{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+/*.big-bg p1{
+  font-size: 30px;
+  text-align: center;
+  background-color: red;
+  color: #fff;
   margin: 0;
-  font-size: 35px;
 }*/
 
 .big-bg p{
-  font-size: 35px;
+  font-size: 30px;
   text-align: center;
-  
+  background-color: red;
+  color: #fff;
+  padding: 5px;
+  margin: 7px;
 }
 
+.big-bg p1{
+  font-size: 30px;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  padding: 3px;
+  margin: 7px;
+}
 
 /*性格*/
 .item-image6{
@@ -170,19 +178,32 @@ h2 {
 }
 
 
-/*スキル*//*好きなもの*/
-.container{
+/*スキル*/
+.introduce3{
+  margin: 10px 20px;
+  background-color: #0bd;
+  text-align: center;
+  height: 55px;
+}
+
+.introduce3 p{
+  font-size: 30px;
+  line-height: 55px;
+}
+
+.container3{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: calc((100vw - 20px) / 3);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: calc((100vw - 20px) / 4);
   /*height: calc((100vh - 120px) / 2);*/
-  grid-template-rows: calc((100vh - 120px) / 2) calc((100vh - 120px) / 2);
+  grid-template-rows: calc((100vh - 220px) / 2) calc((100vh - 220px) / 2);
   gap: 3px;
+  margin-left: 30px;
 }
 
 .item-image{
-  width: calc((100vw - 100px) / 3);
-  height: calc((100vh - 120px) / 3.5);
+  width: calc((100vw - 100px) / 4.2);
+  height: calc((100vh - 200px) / 3.5);
   align-items: center;
 }
 
@@ -193,7 +214,7 @@ h2 {
 }
 
 .item3{
-  margin: 5px;
+  margin: 3px;
   background-color: #0bd;
   color: #fff;
   padding: 5px;
@@ -215,9 +236,45 @@ h2 {
   margin: 0;
 }
 
+.item-image3{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+
+
+/*好きなもの*/
+.introduce4{
+  margin: 10px 20px;
+  background-color:pink;
+  text-align: center;
+  height: 55px;
+}
+
+.introduce4 p{
+  font-size: 30px;
+  line-height: 55px;
+}
+
+.container4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: calc((100vw - 20px) / 3);
+  /*height: calc((100vh - 120px) / 2);*/
+  grid-template-rows: calc((100vh - 220px) / 2) calc((100vh - 220px) / 2);
+  gap: 3px;
+  margin-left: 23px;
+}
+
+.item-image4{
+  width: calc((100vw - 100px) / 3.1);
+  height: calc((100vh - 120px) / 4);
+  align-items: center;
+}
+
 .item4{
   margin: 5px;
-  background-color: #ff006f;
+  background-color: pink;
   color: #fff;
   padding: 5px;
   border-radius: 3px;
@@ -227,17 +284,18 @@ h2 {
 
 .item4 h3{
   text-align: center;
-  font-size: 25px;
-  margin: 5px;
+  font-size: 20px;
+  margin: 2px;
 }
 
 .item4 p{
   text-align: center;
   color: black;
-  font-size: 17px;
+  font-size: 16px;
   background-color: #fff;
   margin: 0 5px;
 }
+
 
 /*ビジョン*/
 .introduce5{
