@@ -97,7 +97,7 @@ h2 {
 
 .big-bg h2{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
@@ -117,13 +117,13 @@ h2 {
   transform: translate(-50%,-50%);
   margin: 0;
   font-size: 35px;
-}
-
-.main-title h2 .p{
-  display: block;
-  padding-bottom: 10px;
-  font-size: 35px;
 }*/
+
+.big-bg p{
+  font-size: 35px;
+  text-align: center;
+  
+}
 
 
 /*性格*/
