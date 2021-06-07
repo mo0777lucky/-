@@ -121,17 +121,14 @@ h2 {
   text-align: center;
   background-color: red;
   color: #fff;
-  padding: 5px;
-  margin: 7px;
+  padding: 3px;
+  margin: 10px 0;
 }
 
-.big-bg p1{
+.top-title{
   font-size: 30px;
   text-align: center;
-  background-color: red;
-  color: #fff;
   padding: 3px;
-  margin: 7px;
 }
 
 /*性格*/
@@ -193,8 +190,8 @@ h2 {
 
 .container3{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: calc((100vw - 20px) / 4);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: calc((100vw - 20px) / 5);
   /*height: calc((100vh - 120px) / 2);*/
   grid-template-rows: calc((100vh - 220px) / 2) calc((100vh - 220px) / 2);
   gap: 3px;
@@ -202,14 +199,14 @@ h2 {
 }
 
 .item-image{
-  width: calc((100vw - 100px) / 4.2);
-  height: calc((100vh - 200px) / 3.5);
+  width: calc((100vw - 100px) / 5.2);
+  height: calc((100vh - 200px) / 4);
   align-items: center;
 }
 
 .item-image3{
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   align-items: center;
 }
 
@@ -234,12 +231,6 @@ h2 {
   font-size: 40px;
   background-color: #fff;
   margin: 0;
-}
-
-.item-image3{
-  width: 30px;
-  height: 30px;
-  align-items: center;
 }
 
 
